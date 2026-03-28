@@ -1,0 +1,36 @@
+Day 4 Assignments 
+1.How can we identify public and private IP? 
+❖ Public IP:  is an IP address visible on the internet and is globally unique. 
+Assigned By: Internet Service Provider (ISP) assigns it to devices or networks 
+for internet access. 
+Devices Receiving Public IP: Home router/modem,Servers, Office/business 
+networks 
+❖ Private IP:  IP address used inside a local network, not visible on the internet. 
+Purpose: Allows multiple devices to communicate locally and share a public IP. 
+Assigned By: Router or network administrator via DHCP or static assignment. 
+Identifying Public vs Private IP: 
+Check IP Range: 
+● Private IP Ranges (IPv4): 
+○ Class A → 10.0.0.0 – 10.255.255.255 
+○ Class B → 172.16.0.0 – 172.31.255.255 
+○ Class C → 192.168.0.0 – 192.168.255.255 
+● If the IP is outside these ranges → Public IP. 
+2.What is subnetting? 
+➢ Subnetting is the process of dividing a large network into smaller, manageable networks called subnets. 
+➢ Why is subnetting used? 
+● To use IP addresses efficiently 
+● To reduce network congestion 
+● To improve security and performance 
+● To make networks easier to manage 
+3.Explain about class D and class E 
+Class D: are used for multicasting, which means sending data to a group of devices at the same time instead of a single device. The range of Class D addresses 
+is 224.0.0.0 to 239.255.255.255. These addresses are not assigned to individual hosts and do not have a network and host division like other classes. They are 
+mainly used in applications such as video streaming, online meetings, and live broadcasts. In simple terms, Class D works like a group communication system, 
+where one sender can transmit data to multiple receivers simultaneously. 
+Class E: IP addresses are reserved for experimental and research purposes and are not used in regular networking. The range of Class E addresses is 
+240.0.0.0 to 255.255.255.255. These addresses cannot be assigned to individual devices and are intended for future or testing purposes. 
+ 
+ 
+ 
+ 
+ 
