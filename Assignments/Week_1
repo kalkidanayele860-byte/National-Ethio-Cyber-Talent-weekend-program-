@@ -1,1 +1,10 @@
-
+8.touch Audit.txt
+chmod 750 Audit.txt(Owner has all 3 permission,group has permission to read and excute not to write and others haven't any permission to do all)
+9.IN symbolic 741 be rwxr----x
+10."" 500 be r-x------
+11.IN numeric r-xrw-r-- be 564
+1.640
+2.755
+3.664
+4.640
+5.Owner can't cat or read without sudo(givinig permission)
