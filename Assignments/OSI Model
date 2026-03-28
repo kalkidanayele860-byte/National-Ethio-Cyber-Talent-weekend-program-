@@ -1,0 +1,50 @@
+The OSI(Open Systems Interconnection) : model is a conceptual framework used to understand how computer networks communicate. 
+It's developed by ISO (International Organization for Standardization) and standardizes how different devices and applications communicate over a network. 
+1. Application Layer (Layer 7): is the topmost layer of the OSI model. 
+It interacts directly with the user or software application. 
+Provides services like sending emails, browsing websites, transferring files, messaging etc. 
+Essentially, it’s the layer where users “see” the network in action. 
+2. Presentation Layer (Layer 6) : is responsible for translating, formatting, and preparing data from the application layer so that it can be understood by the receiving system. 
+It also handles encryption/decryption and data compression. 
+3. Session Layer (Layer 5): is responsible for establishing, managing, and terminating connections (sessions) between two devices or applications on a network. 
+It ensures that communication remains organized and doesn’t get mixed up with other sessions. It’s the “connection manager”. 
+4. Transport Layer (Layer 4): ensures end-to-end communication between devices. 
+It divides data into segments, delivers them reliably or quickly, and reassembles them at the destination. 
+It handles: Error detection and correction 
+Flow control (prevents overwhelming the receiver) Segmentation and reassembly. 
+It’s the “delivery service” of the OSI model. 
+3. Network Layer (Layer 3): is responsible for logical addressing and routing. 
+It decides how data packets move from the source device to the destination device, even across multiple networks. 
+4. Data Link Layer (Layer 2): is responsible for reliable data transfer between two devices on the same local network. 
+It packages Network Layer packets into frames and adds physical addresses (MAC addresses) so devices on the same LAN can communicate. 
+5.Physical Layer (Layer 1): is the lowest layer of the OSI model. 
+It deals with transmitting raw bits (0s and 1s) over a physical medium. 
+Overall, the OSI model helps ensure reliable, efficient, and standardized communication in modern networking environments. 
+
+● How OSI Model works in platforms like telegram? 
+The OSI (Open Systems Interconnection) model can be used to understand how communication occurs in platforms such as Telegram. When a user sends a message, the 
+data passes through all seven layers of the OSI model before reaching the recipient. 
+1. Application Layer (Layer 7): The user interacts with Telegram by typing and sending a message. This layer provides the interface for messaging services. 
+2. Presentation Layer (Layer 6): The message is formatted, encrypted, and possibly compressed to ensure secure and efficient transmission. 
+3. Session Layer (Layer 5): A communication session is established and maintained between the sender and the Telegram servers, ensuring proper synchronization 
+(keeping two systems or processes in the correct order and timing) of messages. 
+4. Transport Layer (Layer 4): The message is divided into segments and transmitted using protocols such as TCP to ensure reliable delivery or UDP for faster transmission where applicable. 
+5. Network Layer (Layer 3): The data is assigned IP addresses(IP addresses belong to devices/the sender and receiver) and routed through the internet from the sender’s 
+device to Telegram servers and then to the receiver. 
+6. Data Link Layer (Layer 2): The data is packaged into frames and delivered across the local network using MAC addresses to reach the correct device. 
+7. Physical Layer (Layer 1): The data is transmitted as electrical signals, light signals, or radio waves through physical media such as cables or wireless networks. 
+At the receiver’s side, the process is reversed, and the message is reconstructed and displayed in the Telegram application. The OSI layers are reversed at the receiver because 
+the data must be unwrapped (decapsulated) in the opposite order to correctly reconstruct the original message. Just take it unwrapping a package  
+● What types of attacks do each layers face based on their function?  
+Each layer of the OSI model is vulnerable to specific types of security attacks depending on 
+its function: 
+1. Application Layer (Layer 7): This layer faces attacks targeting user applications, such as malware, phishing, SQL injection, and cross-site scripting (XSS). These 
+attacks exploit software vulnerabilities and user interactions. 
+2. Presentation Layer (Layer 6): Attacks at this layer involve encryption and data formatting, such as SSL/TLS attacks, data interception, and decryption attacks 
+aiming to compromise data confidentiality. 
+3. Session Layer (Layer 5): This layer is vulnerable to session hijacking and replay attacks, where attackers take control of an active session or reuse valid session data. 
+4. Transport Layer (Layer 4): Common attacks include TCP SYN flood (a type of Denial-of-Service attack), port scanning, and UDP flooding, which aim to disrupt 
+communication or identify open ports. 
+5. Network Layer (Layer 3): This layer faces attacks such as IP spoofing, routing attacks, and packet sniffing, which can mislead routing paths or intercept data. 
+6. Data Link Layer (Layer 2): Attacks include MAC spoofing, ARP poisoning, and VLAN hopping, which target local network communication and device identification. 
+7. Physical Layer (Layer 1): This layer is vulnerable to physical attacks such as cable tapping, hardware damage, and signal interference, which disrupt or intercept data transmission. 
