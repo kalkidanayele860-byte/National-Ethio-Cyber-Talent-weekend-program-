@@ -12,7 +12,9 @@
 
 
 # FLAG 6
-<img width="466" height="18" alt="FLAG2" src="https://github.com/user-attachments/assets/4fb547b0-ff6d-43c8-b9e4-a92244b8b4e7" />
+<img width="466" height="18" alt="FLAG2" src="https://github.com/user-attachments/assets/4fb547b0-ff6d-43c8-b9e4-a92244b8b4e7" />   FLAG{dns_exfiltration}
+
+
 # FLAG 7
 <img width="278" height="85" alt="FLAG3" src="https://github.com/user-attachments/assets/c80c6b68-ce6c-49d3-9eef-a3d9caa8ba55" />
 
