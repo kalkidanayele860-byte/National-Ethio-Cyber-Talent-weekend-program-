@@ -5,4 +5,15 @@ Nmap allows network admins to find which devices are running on their network, d
 Nmap (Network Mapper) is an open-source tool used for network discovery, security auditing, and vulnerability assessment.
 It can identify live hosts, open ports, running services, OS details, and even detect potential vulnerabilities. 
 It’s widely used by network administrators, penetration testers, and security professionals for mapping and securing networks.
-#
+# Which OSI models does Nmap interact with most?
+Layer 3 (Network Layer): This is where Nmap finds out if a device exists.
+By sending packets (like ICMP pings or raw IP packets) to an IP address, Nmap can map out the network structure, identify live hosts, and determine how they are reached (routing).
+Layer 4 (Transport Layer): Port Scanning: Nmap’s most iconic function is scanning ports. Port numbers (e.g., 80, 443, 22) are defined by the Transport Layer (TCP/UDP).
+State Determination: By sending specific flags—like the SYN flag in a TCP handshake—Nmap forces the target's transport stack to respond, revealing whether a port is "open," "closed," or "filtered."
+Protocol Logic: Much of Nmap’s logic is built around the "Three-Way Handshake" process, which is a Transport Layer mechanism.
+# How TCP scan works?
+The SYN Request: Nmap asks the operating system to initiate a connection to a specific port on the target. Your system sends a SYN packet.
+The Response:
+If the port is open: The target server sends back a SYN-ACK.
+If the port is closed: The target server responds with an RST A(Reset) packet.
+The Cleanup: Because Nmap successfully completed the handshake, it must immediately tear down the connection (by sending a FIN or RST packet).
