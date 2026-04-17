@@ -11,6 +11,7 @@ By sending packets (like ICMP pings or raw IP packets) to an IP address, Nmap ca
 Layer 4 (Transport Layer): Port Scanning: Nmap’s most iconic function is scanning ports. Port numbers (e.g., 80, 443, 22) are defined by the Transport Layer (TCP/UDP).
 State Determination: By sending specific flags—like the SYN flag in a TCP handshake—Nmap forces the target's transport stack to respond, revealing whether a port is "open," "closed," or "filtered."
 Protocol Logic: Much of Nmap’s logic is built around the "Three-Way Handshake" process, which is a Transport Layer mechanism.
+Layer 7 (Application Layer): for the sake of checking if the service is running just identify network like webservers,SSH servers.
 # How TCP scan works?
 The SYN Request: Nmap asks the operating system to initiate a connection to a specific port on the target. Your system sends a SYN packet.
 The Response:
