@@ -17,4 +17,6 @@ The SYN Request: Nmap asks the operating system to initiate a connection to a sp
 The Response:
 If the port is open: The target server sends back a SYN-ACK.
 If the port is closed: The target server responds with an RST A(Reset) packet.
+The SYN-ACK request: response for the above SYN request.
+The ACK request: final confirmation for the connection.
 The Cleanup: Because Nmap successfully completed the handshake, it must immediately tear down the connection (by sending a FIN or RST packet).
