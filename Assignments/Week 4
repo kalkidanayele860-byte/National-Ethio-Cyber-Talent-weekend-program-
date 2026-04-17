@@ -20,3 +20,15 @@ If the port is closed: The target server responds with an RST A(Reset) packet.
 The SYN-ACK request: response for the above SYN request.
 The ACK request: final confirmation for the connection.
 The Cleanup: Because Nmap successfully completed the handshake, it must immediately tear down the connection (by sending a FIN or RST packet).
+# how UDP scan works?
+A UDP scan is used to check whether UDP ports are open on a target system using tools like Nmap.
+The scanner sends a UDP packet to a target port.
+Since UDP has no handshake, the response behavior is different from TCP.
+Possible Responses
+1. Open / Active Port
+May send a response back (depends on service)
+Sometimes no response at all even if open
+2. Closed Port
+Target replies with ICMP “Port Unreachable” message
+3. Filtered Port
+No response is received (firewall blocks or drops packets)
