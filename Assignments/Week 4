@@ -56,3 +56,15 @@ Both -sS (SYN scan) and -sT (TCP connect scan) are used to check if a port is op
 Sends SYN packet and does not complete connection → faster and more stealthy.
 -sT (TCP connect scan):
 Completes full TCP handshake → slower but more reliable and easier to run without special privileges.
+# What does "filtered" port means?
+A filtered port means the scanner cannot clearly determine if the port is open or closed because something is blocking or interfering with the connection attempt.
+Why a port becomes filtered
+1. Firewall blocking:a firewall may drop or block scan packets.
+2. Network rules (ACLs):Routers or security systems may block traffic.
+3. No response allowed:The device is configured to not reply to certain requests.
+# How do we use Nmap for firewall invasion?
+Firewall evasion is the techniques used to bypass or avoid detection/blocking by a firewall in systems like Linux.
+Nmap can only probe and analyze how a firewall responds to network traffic for security testing purposes.
+# Nmap Xmas Scan 
+In Nmap on Linux, an Xmas scan is a special TCP scan that sends “weird” packets with multiple flags turned on to study how a target system responds.
+It is mainly used to infer whether ports are open, closed, or filtered.
