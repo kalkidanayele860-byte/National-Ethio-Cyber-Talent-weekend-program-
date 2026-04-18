@@ -1,3 +1,3 @@
-<img width="538" height="196" alt="Nmap py1" src="https://github.com/user-attachments/assets/d6fe7f41-233b-4bc6-8ba8-8bfaedbca35e" />
-<img width="509" height="306" alt="Nmap py2" src="https://github.com/user-attachments/assets/19589c61-9eec-413e-b3b7-a7cf8e0bb754" />
-<img width="385" height="301" alt="Nmap py3" src="https://github.com/user-attachments/assets/6ec5b6c1-de77-48c0-babf-226537b52f2e" />
+<img width="385" height="301" alt="Nmap py1" src="https://github.com/user-attachments/assets/6b7567a8-a81e-4e81-9162-410018647e6a" />
+<img width="509" height="306" alt="Nmap py2" src="https://github.com/user-attachments/assets/2c4dcd5a-873d-4c45-ae5d-c7af9dff6cef" />
+<img width="538" height="196" alt="Nmap py3" src="https://github.com/user-attachments/assets/f224551f-c25d-4c0f-9b21-c8e2a57626ca" />
