@@ -32,3 +32,27 @@ Sometimes no response at all even if open
 Target replies with ICMP “Port Unreachable” message
 3. Filtered Port
 No response is received (firewall blocks or drops packets)
+# Why are UDP scans slow?
+Because it doesn't use handshake{here in UDP scanning not create connection,confirm recipt and require acknowldgment just only sends request.
+# What does OS detection try to identify?
+1.Operating system type either it's window,linux or macOS.
+2.OS's versions
+# What is NSE(Network scripting engine):
+NSE is the feature of Nmap and lets users to run scripts to automate advanced network tasks than simple Nmap scanning.
+* It does: Detect vulnerabilities
+Find services and versions
+Perform deeper OS detection
+Automate security checks
+Gather detailed network information.
+# Common flags used for scanning target:
+-sS	Fast TCP scan
+-sT	Full TCP scan
+-sU	UDP scan
+-sV	Service detection
+-O	OS detection
+# What is the differercne b/n -sS and -sT?
+Both -sS (SYN scan) and -sT (TCP connect scan) are used to check if a port is open or closed.
+-sS (SYN scan):
+Sends SYN packet and does not complete connection → faster and more stealthy.
+-sT (TCP connect scan):
+Completes full TCP handshake → slower but more reliable and easier to run without special privileges.
