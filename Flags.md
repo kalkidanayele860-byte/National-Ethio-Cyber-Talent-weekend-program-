@@ -27,12 +27,6 @@
 
 # FLAG 9<img width="166" height="53" alt="FLAG5" src="https://github.com/user-attachments/assets/800e8e9b-3393-4b00-84ea-8359bd9eb527" />
 
-# FLAG 10
-
-<img width="155" height="28" alt="f" src="https://github.com/user-attachments/assets/9e72801b-d4a4-4ebf-bb7b-76a1cd511652" />
-
-
-
 
 
 
