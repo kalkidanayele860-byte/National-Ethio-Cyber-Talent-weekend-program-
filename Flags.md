@@ -1,5 +1,5 @@
 # FLAG 1
-#<img width="633" height="588" alt="Challenge_1 txt flags" src="https://github.com/user-attachments/assets/de507d1b-37ff-42ea-a8f6-4e7e1ea86a90" />
+<img width="633" height="588" alt="Challenge_1 txt flags" src="https://github.com/user-attachments/assets/de507d1b-37ff-42ea-a8f6-4e7e1ea86a90" />
 # FLAG 2
 #<img width="434" height="146" alt="Challenge_2 txt" src="https://github.com/user-attachments/assets/2611c188-7785-48e5-a425-e7376fd940d3" />
 # FLAG 3
@@ -26,6 +26,11 @@
 
 
 # FLAG 9<img width="166" height="53" alt="FLAG5" src="https://github.com/user-attachments/assets/800e8e9b-3393-4b00-84ea-8359bd9eb527" />
+
+# FLAG 10
+
+<img width="155" height="28" alt="f" src="https://github.com/user-attachments/assets/9e72801b-d4a4-4ebf-bb7b-76a1cd511652" />
+
 
 
 
